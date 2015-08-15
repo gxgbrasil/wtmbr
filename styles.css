@@ -1,8 +1,38 @@
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Remove bordas de imagens no IE10 */
 a img{
   border: 0px;
+}
+
+.layout-transparent {
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url('images/header-img.jpg') center / cover;
+}
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.header-content {
+  padding-left: 15%;
+  padding-top: 15em;
+}
+
+.header-logo {
+  max-width: 600px;
+  padding-bottom: 1em;
+}
+
+.header-lead {
+  padding-left: 5%;
+  text-indent: 1em;
+  font-weight: 300;
+  font-size: 2em;
+  line-height: normal;
+  color: white;
 }

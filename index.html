@@ -1,30 +1,18 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="utf-8">
     <title>Women Techmakers Brasil</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.cyan-blue.min.css" />
     <link rel="stylesheet" href="styles.css">
-    <style>
-      .layout-transparent {
-        background: url('images/header-img.jpg') center / cover;
-      }
-      .layout-transparent .mdl-layout__header,
-      .layout-transparent .mdl-layout__drawer-button {
-        /* This background is dark, so we set text to white. Use 87% black instead if
-           your background is light. */
-        color: white;
-      }
-    </style>
   </head>
   <body>
     <div class="layout-transparent mdl-layout mdl-js-layout">
       <header class="mdl-layout__header mdl-layout__header--transparent">
         <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title">Woman Techmakers</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation -->
@@ -36,8 +24,11 @@
           </nav>
         </div>
       </header>
-      <main class="mdl-layout__content">
-        Conteúdo header
+      <main class="header-content mdl-layout__content">
+        <img class="header-logo" src="images/wtm-logo-horz-white.png" alt="Women Techmakers" />
+        <p class="header-lead">
+          O Women Techmakers é o programa da Google para as<br/>mulheres na área de tecnologia.
+        </p>
       </main>
     </div>
     <div class="mdl-layout mdl-js-layout">
