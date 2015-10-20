@@ -38,3 +38,7 @@ a img{
   line-height: normal;
   color: white;
 }
+
+.layout-main {
+  background-color: rgba(102, 102, 102, 0.3);
+}
