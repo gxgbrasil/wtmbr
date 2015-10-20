@@ -30,6 +30,7 @@ a img{
 }
 
 .header-lead {
+  width: 50%;
   padding-left: 5%;
   text-indent: 1em;
   font-weight: 300;
