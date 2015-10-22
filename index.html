@@ -11,6 +11,22 @@
 
     <!--[if IE]><link rel="shortcut icon" href="images/favicon.ico"><![endif]-->
     <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Carrega API do google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+
+        var mapOptions = {
+          center: new google.maps.LatLng(-14.23500, -51.92528),
+          zoom: 5,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
   </head>
   <body>
     <div class="layout-transparent mdl-layout mdl-js-layout">
@@ -39,7 +55,7 @@
       liderado pela Defensora das Mulheres na Tecnologia Natalie Villalobos e um time global de Googlers que são apaixonados por empoderarem mulheres na tecnologia.
     </section>
     <div class="mdl-layout mdl-js-layout layout-main">
-
+      <div id="map"></div>
     </div>
   </body>
 </html>
