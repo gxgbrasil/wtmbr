@@ -10,6 +10,7 @@ a img{
 
 .layout-transparent {
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) ), url('images/header-img.jpg') center / cover;
+  z-index: -1;
 }
 .layout-transparent .mdl-layout__header,
 .layout-transparent .mdl-layout__drawer-button {
@@ -41,4 +42,19 @@ a img{
 
 .layout-main {
   background-color: rgba(102, 102, 102, 0.3);
+}
+
+.about {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2%;
+  margin-top: -2em;
+  background-color: rgba(66, 133, 244, 1);
+
+  font-size: 1.6em;
+  font-weight: 300;
+  text-indent: 1em;
+  text-align: justify;
+  line-height: normal;
+  color: rgb(42, 42, 42);
 }
