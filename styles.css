@@ -60,19 +60,19 @@ a img{
 }
 
 .about {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   padding: 2%;
-  margin-top: -2em;
+  margin-top: -3.8em;
   margin-bottom: -5em;
-  background-color: rgba(66, 133, 244, 1);
+  background-color: rgba(0, 191, 165, 1);
   box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
 
   font-size: 1.6em;
   font-weight: 300;
   text-indent: 1em;
   text-align: justify;
-  line-height: normal;
+  line-height: 1.8em;
   color: rgb(42, 42, 42);
 }
 
