@@ -158,7 +158,7 @@ a img{
   color: rgb(102, 102, 102);
   margin: 0;
   padding: 0;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
   text-align: justify;
   text-indent: 1em;
   line-height: 2em;
@@ -175,4 +175,5 @@ a img{
   color: rgb(255, 255, 255);
   line-height: normal;
   text-indent: 0;
+  padding-bottom: 0;
 }
