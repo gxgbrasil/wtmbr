@@ -1,0 +1,226 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html,body {
+   width: 100%;
+   height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Remove bordas de imagens no IE10 */
+a img{
+  border: 0px;
+}
+
+.layout-transparent {
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1) ), url('images/header-img.jpg') center / cover;
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+.layout-transparent .mdl-layout__header,
+.layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.header-content {
+  padding-top: 5%;
+  padding-left: 50%;
+  margin-right: -30%;
+}
+
+.header-logo {
+  max-width: 600px;
+  padding-bottom: 0.5em;
+}
+
+.header-lead {
+  width: 50%;
+  padding-left: 5%;
+  text-indent: 1em;
+  font-weight: 300;
+  font-size: 2em;
+  line-height: normal;
+  color: white;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+
+  padding: 2em;
+}
+
+.layout-main {
+  background-color: rgba(102, 102, 102, 0.08);
+  width: 100%;
+  height: auto;
+  z-index: -2;
+}
+
+.about {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+  margin-top: -3.8em;
+  margin-bottom: -5em;
+  background-color: rgba(0, 191, 165, 1);
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+
+  font-size: 1.6em;
+  font-weight: 300;
+  text-indent: 1em;
+  text-align: justify;
+  line-height: 1.8em;
+  color: rgb(42, 42, 42);
+}
+
+#map {
+  width: 100%;
+  height: 50em!important;
+  z-index: -3;
+}
+
+#FAQ {
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+}
+
+#FAQ-header {
+  height: 14em;
+}
+
+#mainquestion {
+  display: inline-block;
+  float: left;
+  background-color: rgba(102, 102, 102, 0.5);
+  margin: 0;
+  width: 65%;
+  height: 100%;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+#FAQ-title {
+  width: 35%;
+  float: left;
+  display: inline-block;
+  background-color: rgba(102, 102, 102, 0.7);
+  height: 100%;
+  padding: 2em;
+  padding-top: 1.8em;
+  box-sizing: border-box;
+
+  font-size: 3.3em;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+}
+
+#FAQ-questions {
+  height: 100%;
+  display: table;
+}
+
+#questions {
+  width: 75%;
+  margin: 0;
+  padding: 1em;
+  box-sizing: border-box;
+  display: table-cell;
+  float: left;
+
+  height: 100%;
+}
+
+#FAQ-image {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  display: table-cell;
+  float: left;
+  background: url("images/faq.jpeg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+.FAQ-question {
+  font-size: 2em;
+  font-weight: 300;
+  color: rgb(102, 102, 102);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5em;
+}
+
+.FAQ-answer {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: rgb(102, 102, 102);
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1em;
+  text-align: justify;
+  text-indent: 1em;
+  line-height: 2em;
+}
+
+#mainquestion .FAQ-question {
+  font-size: 2.3em;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+#mainquestion .FAQ-answer {
+  font-size: 1.3em;
+  color: rgb(255, 255, 255);
+  line-height: normal;
+  text-indent: 0;
+  padding-bottom: 0;
+}
+
+footer {
+  background-color: rgba(66, 133, 244, 0.9);
+  padding: 2em;
+  box-sizing: border-box;
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: 400;
+  display: inline-block;
+  padding-top: 2em;
+}
+
+.support {
+  display: inline-block;
+  float: left;
+  margin-right: 1em;
+  padding: 1em;
+  border-right: rgb(255, 255, 255) 0.1em solid;
+}
+
+.support img {
+  margin-left: 0.1em;
+  max-width: 10em;
+  vertical-align: middle;
+}
+
+.footer-logo {
+  float: right;
+  display: inline-block;
+  max-width: 35em;
+  margin-top: 1em;
+  vertical-align: middle;
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Women Techmakers Brasil</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.cyan-blue.min.css" />
+    <link rel="stylesheet" href="styles.css">
+
+    <!--[if IE]><link rel="shortcut icon" href="images/favicon.ico"><![endif]-->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Carrega API do google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="maps.js"></script>
+  </head>
+
+  <body>
+    <div class="layout-transparent mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row">
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="nav-link" href="#about">Sobre</a>
+            <a class="nav-link" href="#map">Mapas</a>
+            <a class="nav-link" href="#faq">FAQ</a>
+            <a class="nav-link" href="#footer">WTM BR</a>
+          </nav>
+        </div>
+      </header>
+      <main class="header-content mdl-layout__content">
+        <img class="header-logo" src="images/wtm-logo-horz-white.png" alt="Women Techmakers" />
+        <p class="header-lead">
+          O Women Techmakers é um programa da Google para incentivar as mulheres na área de tecnologia.
+        </p>
+      </main>
+    </div>
+    <section id="about" class="about">
+      Lançado em 2012 como um evento anual na noite anterior ao I/O pela então Vice-Presidente do Google[x] Megan Smith, o Women Techmakers é atualmente
+      liderado pela Defensora das Mulheres na Tecnologia Natalie Villalobos e um time global de Googlers que são apaixonados por empoderarem mulheres na tecnologia.
+    </section>
+    <div class="mdl-layout mdl-js-layout layout-main">
+      <div id="map"></div>
+
+      <section id="FAQ">
+        <section id="FAQ-header">
+          <header id="FAQ-title">Perguntas Frequentes</header>
+          <section id="mainquestion">
+            <h3 class="FAQ-question">O que é o Women Techmakers?</h3>
+            <p class="FAQ-answer">
+              O Women Techmakers é o programa e marca global do Google voltado para as mulheres na tecnologia. Atualmente, o programa foca em empoderar as mulheres
+              na tecnologia através do aumento da visibilidade, comunidade e recursos destinados à elas.
+            </p>
+          </section>
+        </section>
+
+        <section id="FAQ-questions">
+          <section id="questions">
+            <h3 class="FAQ-question">Os eventos do Women Techmakers são apenas para mulheres?</h3>
+            <p class="FAQ-answer">
+              Os nossos eventos não tem a intenção de serem apenas para mulheres, mas de enfatizarem a participação de mulheres. Porém, caso seja melhor para a comunidade,
+              os líderes podem promover eventos exclusivos.
+            </p>
+
+            <h3 class="FAQ-question">Porque focar em mulheres? Isso não causa mais separação entre homens e mulheres?</h3>
+            <p class="FAQ-answer">
+              Se um problema não é reconhecido, ele não é tratado. A marca Women Techmakers é feita para conscientizar sobre a diferença de gêneros na área de tecnologia,
+              enquanto trabalha para diminuí-la. Saiba que seus eventos não precisam de usar a marca do Women Techmakers se você sente que isso inibirá o objetivo de incluir as
+              mulheres. Esforço consciente em promover mulheres como palestrantes e em trabalhar com projetos locais de inclusão de mulheres na tecnologia em um evento do GDG é
+              suficiente para fazer desse evento um evento do Women Techmakers - se você usará a marca do Women Techmakers ou não é uma opção sua.
+            </p>
+
+            <h3 class="FAQ-question">Se o objetivo é a inclusão, porque focar apenas em mulheres?</h3>
+            <p class="FAQ-answer">
+              O Women Techmakers não é uma solução final, mas um passo na direção de melhorar a igualdade nas áreas de Ciências, Tecnologia, Engenharia e Matemática. O GDG Mulheres
+              começou quando um grupo de mulheres percebeu uma lacuna na participação de mulheres nos encontros do GDG e quiseram fazer alguma coisa sobre isso. O Women Techmakers
+              começou de um jeito parecido por Megan Smith, que viu uma oportunidade de amplificar as vozes das líderes ténicas ao redor dela, para inspirar futuras gerações. Sendo
+              dito isso, gênero não é nem de longe o único problema de diversidade na tecnologia. Como uma comunidade global, esse problema é exponencialmente mais complexo, já que
+              situação econômica, educação, histórico familiar, origem étnica ou nacional e até mesmo religião tem diferentes significados em diferentes culturas. Nós pedimos que
+              todos os membros de GDGs, líderes do Women Techmakers ou não, para trabalhar para criar um ambiente de inclusão.
+            </p>
+          </section>
+          <div id="FAQ-image">
+            <br>
+          </div>
+        </section>
+      </section>
+
+      <footer id="footer">
+        <section class="support">
+          Apoiado por <img src="images/logo-google.svg" /><br>
+          Feito por <img src="images/logo-gdgbh.png" />
+        </section>
+
+        <a class="footer-cod" href="https://github.com/gdg-bh/codigo-de-conduta">Código de Conduta</a>
+
+        <img class="footer-logo" src="images/wtm-logo-horz-white.png" />
+      </footer>
+    </div>
+  </body>
+</html>
