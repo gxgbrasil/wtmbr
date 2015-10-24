@@ -18,7 +18,7 @@ a img{
 }
 
 .layout-transparent {
-  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1) ), url('images/header-img.jpg') center / cover;
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1) ), url('images/header-img.JPG') center / cover;
   box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
   height: 100%;
   width: 100%;
