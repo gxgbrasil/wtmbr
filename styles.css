@@ -177,3 +177,43 @@ a img{
   text-indent: 0;
   padding-bottom: 0;
 }
+
+footer {
+  background-color: rgba(66, 133, 244, 0.9);
+  padding: 2em;
+  box-sizing: border-box;
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: 400;
+  display: inline-block;
+  padding-top: 2em;
+}
+
+.support {
+  display: inline-block;
+  float: left;
+  margin-right: 1em;
+  padding: 1em;
+  border-right: rgb(255, 255, 255) 0.1em solid;
+}
+
+.support img {
+  margin-left: 0.1em;
+  max-width: 10em;
+  vertical-align: middle;
+}
+
+.footer-logo {
+  float: right;
+  display: inline-block;
+  max-width: 35em;
+  margin-top: 1em;
+  vertical-align: middle;
+}
