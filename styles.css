@@ -52,6 +52,13 @@ a img{
   color: white;
 }
 
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+
+  padding: 2em;
+}
+
 .layout-main {
   background-color: rgba(102, 102, 102, 0.08);
   width: 100%;
