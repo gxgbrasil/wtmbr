@@ -24,15 +24,9 @@ a img{
   width: 100%;
   z-index: -1;
 }
-.layout-transparent .mdl-layout__header,
-.layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
-}
 
 .header-content {
-  padding-top: 5%;
+  padding-top: 10%;
   padding-left: 50%;
   margin-right: -30%;
 }
@@ -52,11 +46,17 @@ a img{
   color: white;
 }
 
+.mdl-navigation {
+  top: 0;
+  right: 3em;
+  position: fixed;
+}
 .nav-link {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 
   padding: 2em;
+
 }
 
 .layout-main {
@@ -74,6 +74,7 @@ a img{
   margin-bottom: -5em;
   background-color: rgba(0, 191, 165, 1);
   box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+  z-index: 5;
 
   font-size: 1.6em;
   font-weight: 300;
