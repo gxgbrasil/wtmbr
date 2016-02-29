@@ -46,17 +46,31 @@ a img{
   color: white;
 }
 
-.mdl-navigation {
+#mdl-navigation {
   top: 0;
-  right: 3em;
   position: fixed;
+  display: block;
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 2em;
+}
+.standart {
+  background-color: transparent;
+}
+.fixed {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
 }
 .nav-link {
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
+  text-align: right;
 
   padding: 2em;
-
+}
+.fixed .nav-link {
+  color: rgb(42, 42, 42);
 }
 
 .layout-main {

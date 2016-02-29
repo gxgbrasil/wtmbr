@@ -26,7 +26,7 @@
         </p>
       </main>
     </div>
-    <nav class="mdl-navigation">
+    <nav id="mdl-navigation" class="standart">
       <a class="nav-link" href="#about">Sobre</a>
       <a class="nav-link" href="#map">Mapas</a>
       <a class="nav-link" href="#FAQ">FAQ</a>
@@ -93,5 +93,22 @@
         <img class="footer-logo" src="images/wtm-logo-horz-white.png" />
       </footer>
     </div>
+
+    <script type="text/javascript">
+    var nav = document.getElementById("mdl-navigation");
+    var stop = (nav.offsetTop);
+
+    window.onscroll = function (e) {
+        var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+        console.log(scrollTop, nav.offsetTop);
+
+        if (scrollTop > stop) {
+            nav.className = 'fixed';
+        } else {
+            nav.className = 'standart';
+        }
+
+    }
+    </script>
   </body>
 </html>
