@@ -97,5 +97,7 @@ function initialize() {
           }
       })(marker, i));
     };
+
+  map.controls[google.maps.ControlPosition.LEFT_CENTER].push(legend);
 }
 google.maps.event.addDomListener(window, 'load', initialize);

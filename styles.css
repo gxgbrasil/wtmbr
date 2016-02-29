@@ -103,6 +103,14 @@ a img{
   height: 50em!important;
   z-index: -3;
 }
+#legend {
+  background-color: #fff;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+  font-size: 2em;
+  line-height: 150%;
+}
 
 #FAQ {
   box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
