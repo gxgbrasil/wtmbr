@@ -86,7 +86,7 @@ a img{
   padding: 2%;
   margin-top: -3.8em;
   margin-bottom: -5em;
-  background-color: rgba(0, 191, 165, 1);
+  background-color: #a49ef1;
   box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
   z-index: 5;
 
@@ -95,7 +95,7 @@ a img{
   text-indent: 1em;
   text-align: justify;
   line-height: 1.8em;
-  color: rgb(42, 42, 42);
+  color: rgb(249, 249, 249);
 }
 
 #map {
@@ -106,6 +106,7 @@ a img{
 
 #FAQ {
   box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+  background-color: #FFF;
 }
 
 #FAQ-header {
