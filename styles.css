@@ -220,21 +220,19 @@ footer a {
 .support {
   display: inline-block;
   float: left;
-  margin-right: 1em;
   padding: 1em;
   border-right: rgb(255, 255, 255) 0.1em solid;
 }
 
 .support img {
   margin-left: 0.1em;
+  margin-right: 1em;
   max-width: 10em;
   vertical-align: middle;
 }
 
-.footer-logo {
-  float: right;
+.footer-cod {
   display: inline-block;
-  max-width: 35em;
-  margin-top: 1em;
-  vertical-align: middle;
+  float: left;
+  padding: 1em;
 }
