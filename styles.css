@@ -113,14 +113,12 @@ a img{
 }
 
 #FAQ {
-  box-shadow: 0 0 0.3em rgba(0, 0, 0, 0.32);
+  box-shadow: 0.3em rgba(0, 0, 0, 0.32);
   background-color: #FFF;
 }
-
 #FAQ-header {
   height: 14em;
 }
-
 #mainquestion {
   display: inline-block;
   float: left;
@@ -131,7 +129,6 @@ a img{
   padding: 2em;
   box-sizing: border-box;
 }
-
 #FAQ-title {
   width: 35%;
   float: left;
@@ -147,11 +144,9 @@ a img{
   font-weight: 300;
   line-height: 100%;
 }
-
 #FAQ-questions {
   display: table;
 }
-
 #questions {
   width: 75%;
   margin: 0;
@@ -162,7 +157,6 @@ a img{
 
   height: 100%;
 }
-
 #FAQ-image {
   width: 25%;
   margin: 0;
@@ -173,7 +167,6 @@ a img{
   background-size: cover;
   height: 100%;
 }
-
 .FAQ-question {
   font-size: 2em;
   font-weight: 300;
@@ -207,6 +200,48 @@ a img{
   line-height: normal;
   text-indent: 0;
   padding-bottom: 0;
+}
+
+#mulheres-palestrantes {
+  width: 100%;
+  height: 50em!important;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("images/mulheres_palestrantes.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#mulheres-palestrantes p {
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #CC0066;
+  padding: 2em;
+  margin: 0;
+
+  text-align: center;
+  color: rgb(221, 221, 221);
+  font-size: 1.2em;
+}
+#mulheres-palestrantes strong {
+  font-size: 1.4em;
+}
+#mulheres-palestrantes a {
+  display: inline-block;
+  background-color: rgb(221, 221, 221);
+  border-radius: 0.1em;
+  margin-top: 1.5em;
+  padding: 0.5em;
+  width: 7em;
+
+  font-size: 1.3em;
+  color: #ba0660;
+  text-decoration: none;
+
+  transition: 0.1s ease;
+}
+#mulheres-palestrantes a:hover {
+  background-color: #ba0660;
+  color: rgb(221, 221, 221);
 }
 
 footer {
